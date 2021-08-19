@@ -1,0 +1,22 @@
+section h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(226, 104, 124);
+}
+section img{
+    float: right;
+    clear: none;
+    border-radius: 25px;
+    opacity: 0.7;
+    width: auto;
+}
+section p{
+    margin-left: 5px;
+    line-height: 2em;
+}
+.img{
+    margin-left: 100px;
+}
+.img1{
+    margin-right: 300px;
+}

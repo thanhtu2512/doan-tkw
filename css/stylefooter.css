@@ -1,0 +1,14 @@
+footer{
+    background-image: url(american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg);
+    background-attachment: fixed;
+    height: 110px;
+}
+
+footer li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 20px;
+    background-color: navajowhite;
+    color: black;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Author: 
+        Date:   
+        -->
+        <meta charset="UTF-8" />
+        <title>Cake Bakery</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="stylebanbanhngot.css" type="text/css">
+        <link rel="stylesheet" href="stylefooter.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <ul class="inner-header container">
+                <a href="" id="logo"><img src="logo.png"/></a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="trangchu.htm" >Trang Chủ</a></li>
+                    <li><a href="sanpham.htm" >Sản Phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="banhngot.htm" >Bánh Ngọt</a></li>
+                            <li><a href="banhsinhnhat.htm" >Bánh Sinh Nhật</a></li>
+                            <li><a href="banhtinhnhan.htm" >Bánh Tình Nhân</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="uudaikethop.htm" >Ưu Đãi</a></li>
+                    <li><a href="gioithieu.html" >Giới Thiệu</a></li>
+                    <li><a href="lienhe.html" >Liên Hệ Chúng Tôi</a></li>
+                </ul>
+                
+            </nav>
+            </ul>
+             
+                
+        </header>
+        <ul id="banner1">
+
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script>
+            $(document).ready(function(){
+             $(window).scroll(function(){
+                    if($(this).scrollTop()){
+                        $('header').addClass('sticky');
+                    }else{
+                        $('header').removeClass('sticky');
+                    }
+                });
+            });
+        </script>
+        
+        <div class="product_index">
+            <div id="content" class="container">
+            <div class="pro">
+                <img src="thay4.jpg"/>
+                <p>Death by Chocolate</p>
+                <p>390.000 VND</p>
+            </div>
+            <div class="pro">
+                <img src="b22.jpg"/>
+                <p>Bánh Socola Ferrero</p>
+                <p>190.000 VND</p>
+            </div>
+            <div class="pro">
+                <img src="thay5(1).jpg"/>
+                <p>Bánh Black Forest</p>
+                <p>249.000 VND</p>
+            </div>
+            <div class="pro">
+                <img src="thay6.jpg"/>
+                <p>Fruit Choco Cake</p>
+                <p>209.000 VND</p>
+            </div>
+            <div class="pro">
+                <img src="thay7.jpg"/>
+                <p>Choco Strawberry Cake</p>
+                <p>219.000 VND</p>
+                
+            </div>
+            <div class="pro">
+                <img src="thay8.jpg"/>
+                <p>Rakhi Theme Cake</p>
+                <p>209.000 VND</p>
+            </div>
+            <div class="pro">
+                <img src="b7.jpg"/>
+                <p>Bánh Mixed Fruit</p>
+                <p>259.000 VND</p>
+            </div>
+            <div class="pro">
+                <img src="thay10.jpg"/>
+                <p>Fresh Fruit Cake</p>
+                <p>229.000 VND</p>
+            </div>
+        </div>
+        </div>
+        <section>
+            <ul id="near-footer">
+                    <marquee id="mar" scrollamount="15" direction="right" loop="100" behavior="scroll" scrolldelay="0" onmouseover="this.stop()" onmouseout="this.start()">
+        
+                        <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
+                        <a href=""><img src="b4.jpg" title="" width="300" height="240"/> </a>
+                        <a href=""><img src="b5.jpg" title="" width="300" height="240"/> </a>
+                        <a href=""><img src="b6.jpg" title="" width="300" height="240"/> </a>
+                        <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
+                        <a href=""><img src="b8.jpg" title="" width="300" height="240"/> </a>
+                       
+                    </marquee>
+                </ul>
+                </section>
+            <footer>
+                    <li>Nguyễn Quyết Thắng&nbsp;&bull; Nguyễn Thanh Tú 
+                        &nbsp;&bull; Trần Văn Trí &nbsp;&bull;Nguyễn Thanh Hải
+                        &nbsp;&bull;Lương Trường An
+                    </li>
+            </footer>
+    </body>
+</html>

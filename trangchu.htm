@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Author: 
+        Date:   
+        -->
+        <meta charset="UTF-8" />
+        <title>Cake Bakery</title>
+        
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="stylebanbanhngot.css" type="text/css">
+        <link rel="stylesheet" href="stylefooter.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <ul class="inner-header container">
+                <a href="" id="logo"><img src="logo.png"/></a>
+                <nav>
+                <ul id="main-menu">
+                    <li><a href="trangchu.htm">Trang Chủ</a></li>
+                    <li><a href="sanpham.htm" >Sản Phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="banhngot.htm" >Bánh Ngọt</a></li>
+                            <li><a href="banhsinhnhat.htm" >Bánh Sinh Nhật</a></li>
+                            <li><a href="banhtinhnhan.htm" >Bánh Tình Nhân</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="uudaikethop.htm">Ưu Đãi</a></li>
+                    <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                    <li><a href="lienhe.html">Liên Hệ Chúng Tôi</a></li>
+                </ul>
+                </nav>
+            </ul>
+                 
+        
+        </header>
+            <ul id="banner1">
+
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script>
+                $(document).ready(function(){
+                 $(window).scroll(function(){
+                        if($(this).scrollTop()){
+                            $('header').addClass('sticky');
+                        }else{
+                            $('header').removeClass('sticky');
+                        }
+                    });
+                });
+            </script>
+        
+        <div class="product_index">
+            <h1>CÁC LOẠI BÁNH TỐT NHẤT CỦA CHÚNG TÔI CHO BẠN</h1>
+            <p>Chúng tôi gửi gắm đến bạn những chiếc bánh ngọt , giá rẻ, vệ sinh và chất lượng luôn được đặt lên hàng đầu.
+                Sự ra đời của mỗi chiếc bánh đều được chọn lọc kỹ lưỡng tâm huyết của đội ngũ chúng tôi từ khâu nguyên liệu, 
+                chế biến để khi đến tay của các bạn, chúng đều trở thành sản phẩm hoàn hảo nhất.</p>
+            <div id="content" class="container">
+                <div class="pro">
+                    <img src="thay1.jpg" />
+                    <p>Bánh Tiramisu, Ý</p>
+                    <p>390.000 VND</p>
+                        <ul class=box>
+                            
+                        </ul>   
+                </div>
+
+                <div class="pro">
+                    <img src="thay2.jpg"/>
+                    <p>Burger</p>
+                    <p>149.000 VND</p>
+                </div>
+                <div class="pro">
+                    <img src="b26.jpg"/>
+                    <p>Bánh Cao Cấp Vanilla</p>
+                    <p>329.000 VND</p>
+                </div>
+                <div class="pro">
+                    <img src="b9.jpg"/>
+                    <p>Bánh Black Forest</p>
+                    <p>229.000 VND</p>
+                </div>
+                <div class="pro">
+                    <img src="b10.jpg"/>
+                    <p>Bánh Dứa</p>
+                    <p>209.000 VND</p>
+                </div>
+                <div class="pro">
+                    <img src="b14.jpg"/>
+                    <p>Bánh Valvet đỏ</p>
+                    <p>229.000 VND</p>
+                </div> 
+                <div class="pro">
+                    <img src="b7.jpg"/>
+                    <p>Bánh Mochi, Nhật Bản</p>
+                    <p>259.000 VND</p>
+                </div>
+                <div class="pro">
+                    <img src="thay3.jpg"/>
+                    <p>Chocolate Cake</p>
+                    <p>229.000 VND</p>
+                </div>
+            </div>
+        </div>
+        <section>
+        <ul id="near-footer">
+                <marquee id="mar" scrollamount="15" direction="right" loop="100" behavior="scroll" scrolldelay="0" onmouseover="this.stop()" onmouseout="this.start()">
+    
+                    <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b4.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b5.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b6.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b8.jpg" title="" width="300" height="240"/> </a>
+                   
+                </marquee>
+            </ul>
+            </section>
+        <footer>
+                <li>Nguyễn Quyết Thắng&nbsp;&bull; Nguyễn Thanh Tú 
+                    &nbsp;&bull; Trần Văn Trí &nbsp;&bull;Nguyễn Thanh Hải
+                    &nbsp;&bull;Lương Trường An
+                </li>
+        </footer>
+    </body>
+</html>

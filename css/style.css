@@ -1,0 +1,59 @@
+
+ul li a{
+    text-decoration: none; 
+    text-align: center;
+ 
+}
+header p{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+header h1{
+    text-align: center;
+    color: rgb(216, 98, 118);
+}
+
+section{
+    width: 1900px;
+}
+
+div{
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: slategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#box{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mar{
+    height: 350px;
+    padding-top: 10px;
+}
+
+#near-footer{
+    width: 100%;
+    height: 500px;
+    background-image: url(attachment-bg.jpg);
+    background-attachment: fixed;
+}
+
+img{
+    border-radius:20px 20px 20px / 20px 20px;
+}
+
+footer{
+    padding-top: 350px;
+    text-align: center ;
+
+}
